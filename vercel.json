@@ -7,22 +7,5 @@
     "pages/api/**/*.ts": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": [
-    {
-      "key": "JWT_SECRET",
-      "description": "JWT secret key for token signing",
-      "example": "your-secret-key-here"
-    },
-    {
-      "key": "OWNER_EMAIL",
-      "description": "Email of the dashboard owner",
-      "example": "owner@example.com"
-    },
-    {
-      "key": "POSTGRES_PRISMA_URL",
-      "description": "Vercel Postgres connection string (auto-injected)",
-      "value": ""
-    }
-  ]
+  }
 }
